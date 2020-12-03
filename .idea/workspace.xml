@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="74ebcd35-0148-4281-826e-7f09e00c43c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/post/hooks/usePost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/post/hooks/usePost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/Posts.styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/Posts.styles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/Posts.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +67,23 @@
       <option name="presentableId" value="Default" />
       <updated>1606856629535</updated>
       <workItem from="1606856630815" duration="2284000" />
-      <workItem from="1606919794427" duration="25025000" />
+      <workItem from="1606919794427" duration="27773000" />
     </task>
+    <task id="LOCAL-00001" summary="change posts page styles">
+      <created>1607006806201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607006806201</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change posts page styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="change posts page styles" />
   </component>
 </project>

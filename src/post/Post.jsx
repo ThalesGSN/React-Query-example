@@ -1,7 +1,8 @@
 import React from "react";
 import usePost from "./hooks/usePost";
 import PostSkeleton from "./Post.skeleton";
-import { CircularProgress } from "@material-ui/core";
+import { CircularProgress, IconButton } from "@material-ui/core";
+import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 import { PostContainer } from "./Post.styles";
 
 const Post = ({ postId, setPostId }) => {
@@ -22,9 +23,9 @@ const Post = ({ postId, setPostId }) => {
         <span>Background Updating...</span>
       </>)}</div>
       <div>
-        <a onClick={() => setPostId(-1)} href="#">
-          Back
-        </a>
+        <IconButton onClick={() => setPostId(-1)}>
+          <ArrowBackIcon />
+        </IconButton>
       </div>
       <h1>{data.title}</h1>
       <div>

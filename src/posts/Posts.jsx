@@ -11,7 +11,7 @@ const Posts = ({ setPostId }) => {
   if (isLoading) {
     return (
       <PostsContainer>
-        {Array.from(Array(3).keys()).map(() => <PostCardSkeleton />)}
+        {Array.from(Array(12).keys()).map(() => <PostCardSkeleton />)}
       </PostsContainer>
     );
   }
